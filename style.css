@@ -52,3 +52,24 @@ h1:nth-child(1) {
   color: hsl(277, 64%, 61%);
   margin-right: 10px;
 }
+.mid {
+  color: hsla(0, 0%, 100%, 0.6);
+  display: flex;
+  flex-direction: column;
+}
+.mid span {
+  margin: 3px 0px 3px 0px;
+}
+.bottom {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.bottom h2 {
+  font-size: 20px;
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 5px;
+}
+.bottom span {
+  color: hsla(0, 0%, 100%, 0.6);
+}
